@@ -25,5 +25,5 @@ Unlike standard analytics that only show "likes" or "views," this tool uses **Na
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/youtube-comment-analyzer.git](https://github.com/YOUR_USERNAME/youtube-comment-analyzer.git)
+git clone [https://github.com/DilshanKodithuwakku/youtube-comment-analyzer.git](https://github.com/DilshanKodithuwakku/youtube-comment-analyzer.git)
 cd youtube-comment-analyzer
