@@ -27,3 +27,6 @@ Unlike standard analytics that only show "likes" or "views," this tool uses **Na
 ```bash
 git clone [https://github.com/DilshanKodithuwakku/youtube-comment-analyzer.git](https://github.com/DilshanKodithuwakku/youtube-comment-analyzer.git)
 cd youtube-comment-analyzer
+
+##
+<p align="center"><i>All rights reserved © DilshanKodithuwakku.</i></p>
