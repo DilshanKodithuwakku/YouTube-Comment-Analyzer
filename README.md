@@ -14,7 +14,7 @@ Unlike standard analytics that only show "likes" or "views," this tool uses **Na
 * **Topic Modeling:** Uses **NMF (Non-Negative Matrix Factorization)** to group comments into hidden themes (e.g., "Audio Quality", "Pricing", "Tutorial Help").
 * **Interactive Dashboard:** Built with **Streamlit** for real-time filtering and visualization.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Python
 * **Data Collection:** `google-api-python-client`
 * **Processing:** `pandas`, `numpy`, `emoji`
