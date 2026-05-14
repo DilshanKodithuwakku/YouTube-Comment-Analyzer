@@ -1,14 +1,14 @@
-# 📺 YouTube Comment Analyzer
+#YouTube Comment Analyzer
 ### *Turning Social Noise into Actionable Insights*
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white) ![NLP](https://img.shields.io/badge/AI-NLP-green?style=for-the-badge)
 
-## 📖 Overview
+##Overview
 A full-stack Data Science application that extracts thousands of comments from YouTube videos to uncover viewer sentiment and trending topics.
 
 Unlike standard analytics that only show "likes" or "views," this tool uses **Natural Language Processing (NLP)** to understand the *quality* of the engagement. It helps creators and brands understand the "vibe" of their audience and cluster discussions into meaningful themes.
 
-## 📊 Key Features
+##Key Features
 * **Data Extraction:** Automated scraping of comments using the **YouTube Data API v3**.
 * **Sentiment Analysis:** Categorizes comments as *Positive*, *Negative*, or *Neutral* using Polarity scores (TextBlob).
 * **Topic Modeling:** Uses **NMF (Non-Negative Matrix Factorization)** to group comments into hidden themes (e.g., "Audio Quality", "Pricing", "Tutorial Help").
@@ -21,7 +21,7 @@ Unlike standard analytics that only show "likes" or "views," this tool uses **Na
 * **NLP:** `TextBlob`, `NLTK`, `Scikit-Learn` (TF-IDF & NMF)
 * **Visualization:** `Streamlit`, `Matplotlib`, `WordCloud`
 
-## 🚀 How to Run Locally
+##How to Run Locally
 
 ### 1. Clone the Repository
 ```bash
