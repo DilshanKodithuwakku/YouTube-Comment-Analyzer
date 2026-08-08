@@ -1,0 +1,21 @@
+# Python environments and build artefacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local configuration
+.env
+.streamlit/secrets.toml
+
+# Generated analysis data and reports
+data/raw/*.csv
+data/processed/*.csv
+data/labels/*.csv
+models/
+reports/*.html
+
+# System files
+.DS_Store
+Thumbs.db

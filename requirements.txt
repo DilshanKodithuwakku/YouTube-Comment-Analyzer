@@ -1,0 +1,17 @@
+# Runtime dependencies for YouTube Comment Analyzer
+emoji>=2.10,<3
+google-api-python-client>=2.100,<3
+pandas>=2.1,<3
+scikit-learn>=1.4,<2
+streamlit>=1.61.1,<2
+textblob>=0.18,<1
+python-dotenv>=1.0,<2
+
+# Optional at runtime, required to train or serve the production sentiment model.
+torch>=2.3,<3
+transformers>=4.44,<6
+accelerate>=0.26,<2
+datasets>=3,<5
+
+# Development and test dependencies
+pytest>=8,<9
