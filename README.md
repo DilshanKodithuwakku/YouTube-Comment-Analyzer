@@ -13,15 +13,15 @@ Analyze the sentiment and recurring discussion themes in the public comments of 
 ## Project structure
 
 ```text
-data_collector.py   Fetch raw comments from the YouTube API
-data_processor.py   Clean comments and assign sentiment scores
-sentiment_model.py  Run the locally trained Transformer model
-sentiment_evaluation.py  Create label samples and calculate accuracy / macro F1
-train_sentiment_model.py Fine-tune and evaluate the production sentiment model
-prepare_tweeteval_dataset.py Download the public TweetEval sentiment training dataset
-topic_modeler.py    Create topic assignments and topic summary CSVs
-app.py              Paste a URL and explore the resulting analysis in Streamlit
-tests/              Unit tests for core data logic
+data_collector.py            #Fetch raw comments from the YouTube API
+data_processor.py            #Clean comments and assign sentiment scores
+sentiment_model.py           #Run the locally trained Transformer model
+sentiment_evaluation.py      #Create label samples and calculate accuracy / macro F1
+train_sentiment_model.py     #Fine-tune and evaluate the production sentiment model
+prepare_tweeteval_dataset.py #Download the public TweetEval sentiment training dataset
+topic_modeler.py             #Create topic assignments and topic summary CSVs
+app.py                       #Paste a URL and explore the resulting analysis in Streamlit
+tests/                       #Unit tests for core data logic
 ```
 
 Generated data is kept outside source files:
